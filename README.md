@@ -33,6 +33,19 @@ func main() {
 
 ## Testing Against R's Base Mean Function
 
+### Go Results
+
+See `sample-usage-branch`
+
+```go
+Time taken to read ints: 15.886625ms
+Time taken to compute trimmed mean for 10,000 ints: 1.78175ms
+Trimmed Mean Ints: 4.646305645212472e+18
+Time taken to read floats: 31.507125ms
+Time taken to compute trimmed mean for 100,000 floats: 11.1505ms
+Trimmed Mean Floats: 0.49981461584006576
+```
+
 To test the Go trimmed mean function against R's base mean function, you can use the following R script:
 
 ```R
