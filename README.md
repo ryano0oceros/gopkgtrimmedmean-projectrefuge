@@ -16,7 +16,7 @@ Next, create a file named `trimmedmean.go` in your project directory. You can fi
 
 The trimmed mean function can compute both symmetric and asymmetric trimming based on the provided arguments. Here is an example of how to use it:
 
-```go
+```bash
 package main
 
 import (
